@@ -11,8 +11,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   alt: 武继杰 (Jijie Wu)
-  width: 10px
-  height: 10px
+  width: 50
+  height: 50
+  title: 武继杰 (Jijie Wu)
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
