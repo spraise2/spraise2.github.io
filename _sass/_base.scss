@@ -33,7 +33,7 @@ a, table.table a {
 }
 
 figure, img {
-  max-width: 50vw;
+  max-width: 90vw;
 }
 
 blockquote {
@@ -93,7 +93,7 @@ blockquote {
 // Profile
 
 .profile {
-  width: 30px;
+  width: 50vw;
 
   .address {
     margin-bottom: 5px;
@@ -106,10 +106,10 @@ blockquote {
   }
 }
 .profile.float-right{
-  margin-left: 300px;
+  margin-left: 1vw;
 }
 .profile.float-left{
-  margin-right: 30px;
+  margin-right: 1vw;
 }
 
 @media (min-width: 576px) {
