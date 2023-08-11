@@ -9,8 +9,8 @@ last_name: Wu
 email: jijie@lut.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
    Jijie Wu (武继杰) is a second-year PhD student at Lanzhou University of Technology (LUT) with research interests in artificial intelligence, computer vision, Few-shot image classification, and meta-learning. 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+# footer_text: >
+#  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: 武继杰, Wu Jijie, Jijie Wu, Wjj, JJ W, wujijie, jijiewu, jijie, BSNet, Bi-FRN, BiFRN, Mixed Attention, 人工智能, 计算机视觉, 细粒度图像识别, 小样本学习, 元学习, 领域自适应, Artificial Intelligence, Computer Vision, Fine-grained Image Recognition, Small-Sample Learning, Few-shot Learning, Meta-learning, Domain Adaptive  # add your own keywords or leave empty
 author: 武继杰, Wu Jijie, Jijie Wu, Wjj, JJ W, wujijie, jijiewu
 lang: cn # the language of your site (for example: en, fr, cn, ru, etc.)
