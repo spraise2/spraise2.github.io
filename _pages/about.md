@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: <a href='https://www.lut.edu.cn/'>Lanzhou University of Technology, Lanzhou, China</a>
 
-inf_width: 90%
+inf_width: 50%
 
 profile:
   align: right
