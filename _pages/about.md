@@ -4,10 +4,10 @@ title: About
 permalink: /
 subtitle: <a href='https://www.lut.edu.cn/'>Lanzhou University of Technology, Lanzhou, China</a>
 
-inf_width: 500px
+inf_width: 300px
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   alt: 武继杰 (Jijie Wu)
