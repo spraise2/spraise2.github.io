@@ -104,7 +104,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: GHsgknnr7NxwxUVAj8MgFAYW44GLlsjjCszpkYZtTQg # your google-site-verification ID (Google Search Console)
 bing_site_verification:  140C4432E55208591C97B54C1B9F6329
 baidu_site_verification: codeva-KC4VL29RHn
 
