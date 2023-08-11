@@ -106,7 +106,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  140C4432E55208591C97B54C1B9F6329
-baidu-site-verification: codeva-KC4VL29RHn
+baidu_site_verification: codeva-KC4VL29RHn
 
 # -----------------------------------------------------------------------------
 # Blog
