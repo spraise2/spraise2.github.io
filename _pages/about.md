@@ -12,7 +12,7 @@ profile:
   image_circular: false # crops the image to make it circular
   alt: 武继杰 (Jijie Wu)
   width: 50
-  height: 280
+  height: 200
   title: 武继杰 (Jijie Wu)
 
 news: true  # includes a list of news items
