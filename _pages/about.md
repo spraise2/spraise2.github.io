@@ -21,6 +21,6 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-I am a first year Doctor of Philosophy (PhD) student, focusing on Few-shot Image Classification, at the [Lanzhou University of Technology (LUT)](https://www.lut.edu.cn/), Lanzhou, China. I am supervised by Prof. Xiaoxu Li.
+I am a second year Doctor of Philosophy (PhD) student, focusing on Few-shot Image Classification, at the [Lanzhou University of Technology (LUT)](https://www.lut.edu.cn/), Lanzhou, China. I am supervised by Prof. Xiaoxu Li.
 <p style="display: none;">武继杰, 继杰, Wu Jijie, Jijie Wu, Wjj, JJ W, Wujijie, Jijiewu, jijie</p>
 
