@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         td, th {
+         border: 0px solid black;
+         }
+         img{
+         padding: 5px;
+         }
+      </style>
+      <title>Bi-Directional Ensemble Feature Reconstruction Network for Few-Shot Fine-Grained Classification</title>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+         <script>
+           window.dataLayer = window.dataLayer || [];
+         
+           function gtag() {
+             dataLayer.push(arguments);
+           }
+         
+           gtag('js', new Date());
+         
+           gtag('config', 'G-PYVRSFMDRL');
+         
+         
+         
+         </script> -->
+      <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+         rel="stylesheet">
+      <link rel="stylesheet" href="./static/css/bulma.min.css">
+      <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+      <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+      <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+      <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      <link rel="stylesheet" href="./static/css/index.css">
+      <link rel="icon" href="./static/images/favicon.svg">
+      <link rel="stylesheet" href="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.css">
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="https://unpkg.com/image-compare-viewer/dist/image-compare-viewer.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script defer src="./static/js/fontawesome.all.min.js"></script>
+      <script src="./static/js/bulma-carousel.min.js"></script>
+      <script src="./static/js/bulma-slider.min.js"></script>
+      <script src="./static/js/index.js"></script>
+   </head>
+   <!-- <body>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+            <a class="navbar-item" href="https://keunhong.com">
+            <span class="icon">
+                <i class="fas fa-home"></i>
+            </span>
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More Research
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://hypernerf.github.io">
+                  HyperNeRF
+                </a>
+                <a class="navbar-item" href="https://nerfies.github.io">
+                  Nerfies
+                </a>
+                <a class="navbar-item" href="https://latentfusion.github.io">
+                  LatentFusion
+                </a>
+                <a class="navbar-item" href="https://photoshape.github.io">
+                  PhotoShape
+                </a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </nav> -->
+   <section class="hero">
+      <div class="hero-body">
+         <div class="container is-max-desktop">
+            <div class="columns is-centered">
+               <div class="column has-text-centered">
+                  <h1 class="title is-1 publication-title", style="color:purple;">Bi-Directional Ensemble Feature Reconstruction Network for Few-Shot Fine-Grained Classification</h1>
+                  <div class="is-size-5 publication-authors">
+                     <span class="author-block">
+                     <a href="https://www.wujijie.cn/">Jijie Wu</a><sup>1</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://www.dongliangchang.cn/">Dongliang Chang</a><sup>2</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://aneeshan95.github.io/">Aneeshan Sain</a><sup>3</sup>,</span>
+                     <span class="author-block">
+                     <a href="https://www.semanticscholar.org/author/Xiaoxu-Li/145074587/">Xiaoxu Li</a><sup>1</sup>,</span>
+                     <span class="author-block">
+			     <br>
+                     <a href="https://zhanyuma.cn/">Zhanyu Ma</a><sup>2</sup>,</span>
+                     <span class="author-block">
+                     Jie Cao<sup>1</sup>,</span>
+                     <span class="author-block">
+                     Jun Guo<sup>2</sup>,</span>
+                     <span class="author-block">
+                     <a href="http://personal.ee.surrey.ac.uk/Personal/Y.Song/">Yi-Zhe Song</a><sup>3</sup></span>	  
+                     </span>
+                  </div>
+                  <div class="is-size-5 publication-authors">
+                     <span class="author-block"><sup>1</sup>Lanzhou University of Technology, China</span>
+                     <span class="author-block"><sup>2</sup>Beijing University of Posts and Telecommunications, China</span>
+                     <span class="author-block"><sup>3</sup>SketchX, CVSSP, University of Surrey, United Kingdom</span>
+                  </div>
+                  <div class="column has-text-centered">
+                     <div class="publication-links">
+                        <!-- PDF Link. -->
+                        <span class="link-block">
+                        <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                        </a>
+                        </span>
+
+                        <!-- Code Link. -->
+                        <span class="link-block">
+                        <a href="https://github.com/PRIS-CV/BiEN"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                        <i class="fab fa-github"></i>
+                        </span>
+                        <span>Code</span>
+                        </a>
+                        </span>
+                        <!-- Dataset Link. -->
+                        <!-- <span class="link-block">
+                           <a href=""
+                              class="external-link button is-normal is-rounded is-dark">
+                             <span class="icon">
+                                 <i class="far fa-images"></i>
+                             </span>
+                             <span>Data</span>
+                           </a> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="hero teaser">
+      <div class="container is-max-desktop">
+         <div class="hero-body">
+            <img class="round" style="width:1500px" src="./static/images/motivation.png"/>
+            <h2 class="subtitle has-text-centered">
+               <span class="dnerf"></span> (a) is the traditional metric based method. (b) is the existing method FRN. (b) + (c) is the proposed method (d) in this paper. (b) can help the model increase the inter-class variations, (c) can help the model decrease the intra-class variations, and proposed method (d) can simultaneously increase inter-class variations while reducing intra-class variations by way of a mutual support-query and query-support reconstruction.</h2>
+         </div>
+      </div>
+   </section>
+
+  
+   <section class="section">
+   <div class="container is-max-desktop">
+   <!-- Abstract. -->
+   <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+         <h2 class="title is-3">Abstract</h2>
+         <div class="content has-text-justified">
+            The main challenge for fine-grained few-shot image classification is to learn feature representations with higher inter-class and lower intra-class variations, with a mere few labelled samples. Conventional few-shot learning methods however cannot be naively adopted for this fine-grained setting -- a quick pilot study reveals that they in fact push for the opposite (i.e., lower inter-class variations and higher intra-class variations). To alleviate this problem, prior works predominately use a support set to reconstruct the query image and then utilize metric learning to determine its category. Upon careful inspection, we further reveal that such unidirectional reconstruction methods only help to increase inter-class variations and are not effective in tackling intra-class variations. In this paper, we introduce a bi-reconstruction mechanism that can simultaneously accommodate for inter-class and intra-class variations. In addition to using the support set to reconstruct the query set for increasing inter-class variations, we further use the query set to reconstruct the support set for reducing intra-class variations. This design effectively helps the model to explore more subtle and discriminative features which is key for the fine-grained problem in hand. Furthermore, we also construct a self-reconstruction module to work alongside the bi-directional module to make the features even more discriminative. We introduce the snapshot ensemble method in the episodic learning strategy -- a simple trick to further improve model performance without increasing training costs. Experimental results on three widely used fine-grained image classification datasets, as well as general and cross-domain few-shot image datasets, consistently show considerable improvements compared with other methods. 
+            </p>
+         </div>
+      </div>
+   </div>
+
+   <section class="section">
+      <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+         <div class="column is-four-fifths">
+            <h2 class="title is-3">Architecture</h2>
+            <div class="content has-text-justified">
+               </h2>
+               <center>
+                  <img src="./static/images/architure.png" alt="" border=0 height=650 width=1200></img></
+               </center>
+               <h5 class="subtitle has-text-centered">
+                  The proposed bi-directional feature reconstruction network. FSRM refers to Feature Self-reconstruction Module and FMRM refers to Feature Mutual Reconstruction Module.
+	       </h5>
+               &nbsp; 
+
+	       <center>
+                  <img src="./static/images/fsrm.png" alt="" border=0 height=400 width=500></img></
+               </center>
+               <h5 class="subtitle has-text-centered">
+		        Feature self-reconstruction module (FSRM).
+	       </h5>
+
+	       <center>
+                  <img src="./static/images/fmrm.png" alt="" border=0 height=400 width=500></img></
+               </center>
+               <h5 class="subtitle has-text-centered">
+		       Feature mutual reconstruction module (FMRM).
+	       </h5>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="hero">
+   <div class="hero-body">
+   <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+         <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <div class="content has-text-justified">
+               <center>
+		  <img class="round" style="width:1500px" alt="qualitative results" src="./static/images/results_conv4.png"/>
+               </center>
+               <h5 class="subtitle has-text-justified">
+		  5-way few-shot classification performance on the CUB, Dogs and Cars datasets when Conv-4 backbone is used. 
+			   <br>
+			   <br>			
+               <center>
+		  <img class="round" style="width:1500px" alt="qualitative results" src="./static/images/results_resnet12.png"/>
+               </center>
+               <h5 class="subtitle has-text-justified">
+                  5-way few-shot classification performance on the CUB, Dogs and Cars datasets when ResNet-12 backbone is used.
+	    			<br>
+		<center>
+		  <img class="round" style="width:1500px" alt="qualitative results" src="./static/images/vis.png"/>
+               </center>
+               <h5 class="subtitle has-text-justified">
+                   Recovered images of different features by our bi-directional feature reconstruction network for the CUB dataset.
+            <br>
+			
+            </div>
+         </div>
+      </div>
+   </div>
+   <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+         <h2 class="title">BibTeX</h2>
+         <pre><code>@article{wu2024bien,
+  title={Bi-Directional Ensemble Feature Reconstruction Network for Few-Shot Fine-Grained Classification},
+  author={Jijie Wu and Dongliang Chang and Aneeshan Sain and Xiaoxu Li and Zhanyu Ma and Jie Cao and Jun Guo and Yi-Zhe Song},
+  booktitle={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024}
+}</code></pre>
+      </div>
+   </section>
+   <script>
+      const viewers = document.querySelectorAll(".image-compare");
+      viewers.forEach((element) => {
+          let view = new ImageCompare(element, {
+              hoverStart: true,
+              addCircle: true
+          }).mount();
+      });
+      
+      $(document).ready(function () {
+          var editor = CodeMirror.fromTextArea(document.getElementById("bibtex"), {
+              lineNumbers: false,
+              lineWrapping: true,
+              readOnly: true
+          });
+          $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+          })
+      });
+   </script>
+   <br>
+   <p style="text-align:center"> Copyright: © Jijie Wu | Last updated: 17 Mar 2024 |Template Credit: <a href="https://nerfies.github.io/"> Nerfies</a></p>
+   </body>
+</html>
