@@ -36,6 +36,9 @@
     - title: <a href="https://github.com/PRIS-CV/Bi-FRN">Bi-FRN</a>
       year: 2022
       description: Code realease for the AAAI-23 paper.
+    - title: <a href="https://github.com/PRIS-CV/BiEn">BiEn</a>
+      year: 2024
+      description: Code realease for the TPAMI-24 paper.
 
 - title: Honors and Awards
   type: time_table
