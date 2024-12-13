@@ -5,8 +5,6 @@
       value: Jijie Wu
     - name: Date of Birth
       value: 3th April 1996
-    - name: Languages
-      value: Chinese, English
 
 - title: Education
   type: time_table
