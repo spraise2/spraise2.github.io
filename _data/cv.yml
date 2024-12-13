@@ -11,20 +11,19 @@
 - title: Education
   type: time_table
   contents:
-    - title: M.E and Ph.D
+    - title: B.E - Ph.D
       institution: Lanzhou University of Technology, Lanzhou, China
       year: 2019 - now
       description:
-        - M.E. in Computer Science and Technology (2019-20221).
-        - title: Ph.D. in Manufacturing Information System (2021-Now).
+        - B.E in Software Engineering (2015-2019).
+        - title: M.E. in Computer Science and Technology (2019-2022).
           contents:
             - "Adviser: Prof. Xiaoxu Li."
-            - "Focus: Interpretable Few-shot Learning, Meta-Learning."
-    - title: B.E
-      institution: Lanzhou University of Technology, Lanzhou, China
-      year: 2015 - 2019
-      description:
-        - B.E. in Software Engineering.
+            - "Focus: Few-shot Image Classification, Meta-Learning."
+        - title: Ph.D. in Manufacturing Information System (2022-Now).
+          contents:
+            - "Adviser: Prof. Xiaoxu Li."
+            - "Focus: Interpretable Few-shot Learning."
 
 
 - title: Open Source Projects
