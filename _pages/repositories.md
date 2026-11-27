@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: GitHub Repositories for Few-shot Learning, Image Classification, PyTorch
-nav: true
+nav: false
 nav_order: 4
 ---
 
